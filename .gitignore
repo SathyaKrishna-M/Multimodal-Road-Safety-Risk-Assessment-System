@@ -31,7 +31,7 @@ indian_road_samples/
 # Output and results
 dry_run_inference/
 dry_run_results/
-results/
+# results/
 ppt/
 
 # Model weights
