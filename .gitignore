@@ -1,0 +1,43 @@
+# Environments
+.venv/
+.venv_gpu/
+.env
+
+# Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+*log.txt
+dry_run_log.txt
+cpu_train_log*.txt
+gpu_train_log*.txt
+cpu_retrain_log*.txt
+*.txt
+!requirements.txt
+
+# Datasets and Media
+data/
+datasets/
+indian_road_samples/
+*.mp4
+*.jpg
+*.png
+*.avi
+*.mkv
+
+# Output and results
+dry_run_inference/
+dry_run_results/
+results/
+ppt/
+
+# Model weights
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.onnx
+*.pkl
