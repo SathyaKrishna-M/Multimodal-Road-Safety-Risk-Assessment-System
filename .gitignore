@@ -41,3 +41,8 @@ ppt/
 *.hdf5
 *.onnx
 *.pkl
+
+# Allow assets
+!assets/
+!assets/*.jpg
+!assets/*.png
